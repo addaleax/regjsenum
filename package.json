@@ -1,0 +1,37 @@
+{
+  "name": "regjsenum",
+  "version": "1.0.0",
+  "description": "Enumerate matched strings for a given regular expression.",
+  "main": "./lib/index.js",
+  "bin": {
+    "regjsenum": "./bin/regjsenum.js"
+  },
+  "dependencies": {
+    "regjsparser": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "nyc": "^10.0.0"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addaleax/regjsenum.git"
+  },
+  "keywords": [
+    "generator",
+    "iterator",
+    "map",
+    "context",
+    "lookbehind",
+    "lookahead"
+  ],
+  "author": "Anna Henningsen <anna@addaleax.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addaleax/regjsenum/issues"
+  },
+  "homepage": "https://github.com/addaleax/regjsenum#readme"
+}
