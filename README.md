@@ -80,6 +80,17 @@ AAAA@gs.sG
 bAAA@gs.sG
 ```
 
+Limitations
+===========
+
+This library currently does not support:
+- Backreferences
+- `\b` support
+- Lookahead groups
+- Overly large inverted character classes (`[^…]`)
+
+
+
 License
 =======
 
